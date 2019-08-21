@@ -164,7 +164,7 @@ a {	text-decoration: none; }
 
 .slider_info .informacion .subtitulo {
 	color: #444444;
-	font-size: 18px;
+	/*font-size: 20px;*/
 	line-height: 24px;
 	margin-bottom: 16px;
 }
@@ -182,6 +182,15 @@ a {	text-decoration: none; }
 	margin: 0 10px;
 	border-radius: 50%;
 	background:#e6e6e6;
+}
+
+.cursos {
+	margin-left: 20%;
+}
+
+.cursos ul li {
+	list-style-type: none;
+	list-style-image: url(/img/item.png);
 }
 
 .slider_info .informacion .botones .active {

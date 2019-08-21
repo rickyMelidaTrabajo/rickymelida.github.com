@@ -286,4 +286,17 @@ $(document).ready(function(){
 
 			altoInfo();
 		});
+
+
+		//Enlaces para las redes
+		$("#github").click(function() {
+			window.open("https://github.com/rickyMelida",'_blank');
+		});
+		$("#facebook").click(function() {
+			window.open("https://es-es.facebook.com/ricardo.melida",'_blank');
+		});
+		$("#twitter").click(function() {
+			window.open("https://twitter.com/melidaricardo",'_blank');
+		});
+
 });
