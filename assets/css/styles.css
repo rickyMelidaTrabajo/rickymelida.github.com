@@ -1,0 +1,215 @@
+@import url(sobreMi.css);
+@import url(habilidades.css);
+body{
+	background: rgba(240, 255, 255, 0.8);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header input {
+  display: none;
+}
+
+header{
+  float: left;
+  width: 20%;
+  height: 100vh;
+  background: rgb(0, 139, 139);
+
+
+}
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+#menu {
+  position: absolute;
+  left: 0%;
+  width: 80%;
+  height: 100vh;
+  margin-left: -80%;
+  background: rgba(240, 255, 255, 0.8);;
+}
+
+#menu ul {
+	display: block;
+	margin-top: 20%;
+	margin-left: 20%;
+}
+
+#menu ul li{
+  list-style: none;
+  padding: 5% 0;
+  text-align: center;
+  margin-right: 50%;
+}
+
+#menu ul img{
+	text-align: center;
+	height: 115px;
+	width: 120px;
+	border: 2px solid #000;
+	border-radius: 90px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000;
+}
+#contenedor {
+	/*transition: all 0.4s;*/
+  margin-left: 20%;
+  width:80% ;
+  height: 100vh;
+  background: rgba(240, 255, 255, 0.8);;
+  
+}
+
+#contenedor p:first-child{
+	padding-top: 20%;
+}
+
+#contenedor p {
+	padding: 0 10%;
+	font-family: sans-serif;
+	font-size: 23px;
+}
+
+#contenedor #correo{
+	margin: 10% 0 0 10%;
+	font-size: 12px;
+}
+
+#contenedor #direccion {
+	margin-left: 10%;
+	font-size: 12px;
+}
+
+#contenedor #redes {
+	margin: 20%;
+}
+
+
+
+#contenedor #redes a img{
+	width: 30px;
+	border-radius: 40%;
+}
+
+#redes a {
+	text-decoration: none;
+	padding: 5%;
+}
+.mover-content {
+	transition: all 0.5s;
+  transform: translateX(100%);
+}
+
+#cv {
+	
+}
+
+#cv p a{
+	text-decoration: none;
+	color: #665;
+}
+#tecnologias {
+	background: rgb(240, 255, 255);
+  width:90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+#tecnologias div:nth-child(1), div:nth-child(4){
+	margin-left:5%;
+}
+
+#tecnologias div a img{
+	width: 70px;
+	height: 70px;
+}
+#tecnologias div{
+	width: 25%;
+	height: 80px;
+	padding: 10px;
+}
+
+.titulos, #links, #contactos{
+
+	background: rgb(240, 255, 255);
+	
+}
+
+.titulos h2 {
+	font-family: sans-serif;
+	font-size: 23px;
+	text-decoration: underline;
+	margin: 5%;
+}
+
+/*------*/
+#links, #contactos{
+	padding: 5%;	
+	margin-bottom:10%;
+}
+
+#links ul, #contactos ul{
+	list-style: none;
+	margin:0 10%;
+	
+}
+#links ul li {
+	list-style-image: url('../images/ok.png');
+	padding: 5% 0px;
+	border-bottom: 0.5px solid #000;
+}
+
+#links ul li a, #contactos ul li a {
+	font-size:16px
+}
+
+#selec-item {
+	text-decoration: underline;
+
+}
+
+#contactos ul li:nth-child(1) {
+	list-style-image: url('../images/ubi.png');
+	padding: 5%;
+}
+
+#contactos ul li:nth-child(2) {
+	list-style-image: url('../images/tele.png');
+	padding: 5%;
+}
+
+#contactos ul li:nth-child(3) {
+	list-style-image: url('../images/corre.png');
+	padding: 5%;
+}
+
+
+footer {
+	padding: 5%;
+	background: rgb(0, 139, 139);
+	text-align: center;
+}
+
+footer span {
+	font-size: 15px;
+}
+
+
+
+
