@@ -11,7 +11,6 @@ function verMenu(){
   var content = $('#contenedor');
   
   if(seleciona){
-    
     $('header').animate({marginLeft: '80%'});
     menu.animate({marginLeft: '0px'});
     content.addClass('mover-content');
