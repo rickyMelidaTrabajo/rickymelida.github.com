@@ -6,11 +6,8 @@ $(document).ready(function() {
   
   var tamaho = screen.width;
   var titulo = document.title;
-  var selec = $('#selec-item');
-  var index = $('ul li:nth-child(1)');
 
   switch(titulo) {
-    
     case 'Ricardo M.':
       $('ul li:nth-child(1)').attr('id', 'selec-item');
       break;
@@ -32,16 +29,11 @@ $(document).ready(function() {
         break;
 
   }
-
-  a.attr('id', 'selec-item');
   
   if(tamaho < 1250) {
     $('#menu').animate({marginLeft: '-80%'});
     
   }
-
-
-
 
   function verMenu(){
       
@@ -61,12 +53,8 @@ $(document).ready(function() {
         menu.animate({marginLeft: '-80%'});
         //menú.style.display = 'inherit';
       }  
-    
-
-    
   }
-
-
+  
 });
 
 
