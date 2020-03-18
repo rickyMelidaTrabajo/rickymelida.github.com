@@ -42,9 +42,14 @@ header{
 
 #menu ul {
 	display: block;
+<<<<<<< HEAD
 	margin-top: 10%;
 	margin-left: auto;
 	width: 100%	;
+=======
+	margin-top: 5%;
+	margin-left: 20%;
+>>>>>>> 6527723b33cd4bfe2dce9c88da6f95f60b567cd9
 }
 
 
@@ -123,10 +128,6 @@ ul li a {
 .mover-content {
 	transition: all 0.5s;
   	transform: translateX(100%);
-}
-
-#cv {
-	
 }
 
 #cv p a{
@@ -219,7 +220,17 @@ footer {
 
 footer span {
 	font-size: 15px;
-}
+}	
+
+@media(min-width:570px) {
+	#menu ul li {
+		padding: 2% 0;
+		font-size: 23px;
+	}
+
+	#contenedor #presentacion{
+		margin-top: -10%;
+	}
 
 /* ----- Tamanho de escritorio  ------ */
 
@@ -284,5 +295,30 @@ footer span {
 }
 
 
+	#contenedor #correo{
+		font-size: 21px;
+		padding-bottom: 2%;
+	}
+
+	#contenedor #direccion {
+		font-size: 21px;
+	}
+
+	#contenedor #redes {
+		margin: 10%;
+	}
+
+	#contenedor #redes a {
+		padding: 2%;
+	}
+
+	header {
+		width: 10%;
+	} 
+
+	header label:hover {
+		cursor: pointer;
+	}
+}
 
 
