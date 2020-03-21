@@ -127,6 +127,13 @@ ul li a {
 #cv{
 	margin-top: auto;	
 }
+
+
+#cv p a{
+	text-decoration: none;
+	margin: 10% auto;
+}
+
 #tecnologias {
 	background: rgb(240, 255, 255);
 	width:90%;
@@ -242,6 +249,18 @@ footer span {
 	}
 
 
+	#contenedor p:first-child{
+		padding-top: 10%;
+	}
+
+	#contenedor #redes {
+		margin-top: 30%;
+	}
+
+	#cv{
+		margin: -40% auto;	
+	}
+
 	.titulos h2 {
 		margin: 5% 25%;
 	}
@@ -274,9 +293,6 @@ footer span {
 		margin-left: 20%;
 	}
 
-	footer span {
-		
-	}
 }
 
 
