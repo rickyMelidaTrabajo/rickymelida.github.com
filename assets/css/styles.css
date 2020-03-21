@@ -14,11 +14,10 @@ header input {
 }
 
 header{
-  float: left;
-  width: 20%;
-  height: 100vh;
-  background: rgb(0, 139, 139);
-
+	float: left;
+	width: 20%;
+	height: 100vh;
+	background: rgb(0, 139, 139);
 
 }
 .clearfix {
@@ -125,9 +124,8 @@ ul li a {
   	transform: translateX(100%);
 }
 
-#cv p a{
-	text-decoration: none;
-	color: #665;
+#cv{
+	margin-top: auto;	
 }
 #tecnologias {
 	background: rgb(240, 255, 255);
@@ -217,15 +215,7 @@ footer span {
 	font-size: 15px;
 }	
 
-@media(min-width:570px) {
-	#menu ul li {
-		padding: 2% 0;
-		font-size: 23px;
-	}
 
-	#contenedor #presentacion{
-		margin-top: -10%;
-	}
 
 /* ----- Tamanho de escritorio  ------ */
 
@@ -286,33 +276,6 @@ footer span {
 
 	footer span {
 		
-	}
-}
-
-
-	#contenedor #correo{
-		font-size: 21px;
-		padding-bottom: 2%;
-	}
-
-	#contenedor #direccion {
-		font-size: 21px;
-	}
-
-	#contenedor #redes {
-		margin: 10%;
-	}
-
-	#contenedor #redes a {
-		padding: 2%;
-	}
-
-	header {
-		width: 10%;
-	} 
-
-	header label:hover {
-		cursor: pointer;
 	}
 }
 
