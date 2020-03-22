@@ -85,7 +85,7 @@ ul li a {
 }
 
 #contenedor p:first-child{
-	padding-top: 20%;
+	padding-top: 15%;
 }
 
 #contenedor p {
@@ -105,10 +105,8 @@ ul li a {
 }
 
 #contenedor #redes {
-	margin: 20%;
+	margin: 15%;
 }
-
-
 
 #contenedor #redes a img{
 	width: 30px;
@@ -128,10 +126,13 @@ ul li a {
 	margin-top: auto;	
 }
 
+#cv p {
+	padding: 10%;
+}
 
 #cv p a{
 	text-decoration: none;
-	margin: 10% auto;
+	margin: 0;
 }
 
 #tecnologias {
@@ -254,7 +255,7 @@ footer span {
 	}
 
 	#contenedor #redes {
-		margin-top: 30%;
+		margin-top: 17%;
 	}
 
 	#cv{

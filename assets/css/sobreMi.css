@@ -1,7 +1,6 @@
 #contenedor #sobreMi p{
-	margin-top: -10%;
+	margin-top: -10;
 	font-size: 18px;
-
 }
 
 #est-exp {
@@ -9,20 +8,32 @@
 }
 
 #estudios section {
-	width: auto;
+	width: 75%;
 	margin: 10% 0%;
-	border-bottom: 0.5px solid gray;
+	border-bottom: 1px solid gray;
 	margin-left: 10%;
 }
 #estudios section h3, h4, h5{
 	text-align: left;
 	margin: 2% 10%;
-
 }
 
 #estudios section p {
 	margin: 5%;
 
+}
+
+@media(min-width: 1250px) {
+
+	#contenedor #sobreMi p{
+		margin-top: 0;
+		width: 50%;
+	}
+	#estudios section {
+		width: 60%;
+		margin: 10% 25%;
+		margin-left: 25%;
+	}
 }
 
 
