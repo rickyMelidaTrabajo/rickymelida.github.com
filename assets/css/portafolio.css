@@ -1,0 +1,16 @@
+.projects {
+    width: 90%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#port1, #port3, #port4 {
+    
+}
+
+#port2 {
+    background-image: url('../images/projects/panambireta.jpg');
+
+}

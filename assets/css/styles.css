@@ -1,5 +1,7 @@
 @import url(sobreMi.css);
 @import url(habilidades.css);
+@import url(portafolio.css);
+
 body{
 	background: rgba(240, 255, 255, 0.8);
 }
@@ -79,8 +81,8 @@ ul li a {
 	/*transition: all 0.4s;*/
   margin-left: 20%;
   width:80% ;
-  height: 100vh;
-  background: rgba(240, 255, 255, 0.8);;
+  height: auto;
+  background: rgba(240, 255, 255, 0.8);
   
 }
 

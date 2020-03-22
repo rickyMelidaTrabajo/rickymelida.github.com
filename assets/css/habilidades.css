@@ -1,26 +1,33 @@
 #habilidades div{
 	margin: auto;
+	padding: 10px;
 }
 #habilidades div label{
 	color: red;
 }
 progress {
+	width: 60%;
 	display: block;
 	background-color: #f3f3f3;
-	border: 0;
-	height: 18px;
-	border-radius: 9px;
+	border: 1px solid #000;
+	height: 25px;
+	border-radius: 25px;
+	padding: 2px 5px;
 }
 
 progress::-webkit-progress-bar {
 	background-color: #f3f3f3;	
-	border-radius: 9px;
+	border-radius: 25px;
 }
  
 progress::-webkit-progress-value {	
 	background: #cdeb8e;	
 }
 
-
+@media(min-width: 1250px) {
+	#habilidades div {
+		margin-left: 25%;
+	}
+}
 
 
