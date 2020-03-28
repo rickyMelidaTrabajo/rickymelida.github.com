@@ -60,5 +60,15 @@ $(document).ready(function () {
 
   }
 
+  let projects = document.querySelector('#port');
+  let contenedor = document.querySelector('#contenedor');
+
+  for(let i=0; i<=4;i++) {
+    let project2 = projects.cloneNode(true);
+    project2.removeAttribute('id');
+
+    contenedor.appendChild(project2);
+  }
+
 });
 
