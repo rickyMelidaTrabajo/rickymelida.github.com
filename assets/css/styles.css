@@ -178,30 +178,32 @@ ul li a {
 
 /*--------------   Tecnologias  -----------------*/
 .apartados {
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 
-.apartados div {
+.icons-tech {
   display: inline;
 }
 
 #tecnologias {
+  width: 100%;
+  height: auto;
   background: rgb(240, 255, 255);
-  margin: -5%;
+  margin-left: 20%;
 }
 
 #tecnologias div a img {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
 }
-
+/*
 #tecnologias div {
   width: 25%;
   height: 80px;
   padding: 10px;
   margin: 5%;
-}
+}*/
 
 /*--------------   Links y enlaces  -----------------*/
 #links,
@@ -304,6 +306,7 @@ footer span {
     margin: 5% 25%;
   }
 
+  /*---- Imagenes tipo banner del container ------*/
   #images {
     float: left;
     margin-left: 40%;
@@ -325,8 +328,38 @@ footer span {
     opacity: 0.7;
   }
 
-  
 
+
+  /*--- Sector de datos personales -----*/
+  .apartados {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 0 5% 0 20%;
+  }
+
+
+  /* Tecnologias */
+  #tecnologias {
+    width: 30%;
+    margin: 5%;
+  }
+
+  #tecnologias .icons-tech {
+    width: 100%;
+  }
+
+  #tecnologias .icons-tech a img{
+    border: 5px solid #fff;
+  }
+
+  #links {
+    width: 30%;
+  }
+
+  #contactos {
+    width: 30%;
+  }
 
   footer {
     background: rgba(240, 255, 255, 0.8);
