@@ -182,10 +182,6 @@ ul li a {
   height: auto;
 }
 
-.icons-tech {
-  display: inline;
-}
-
 #tecnologias {
   width: 100%;
   height: auto;
@@ -302,9 +298,9 @@ footer span {
     margin: -40% auto;
   }
 
-  .titulos h2 {
+  /*.titulos h2 {
     margin: 5% 25%;
-  }
+  }*/
 
   /*---- Imagenes tipo banner del container ------*/
   #images {
@@ -335,30 +331,45 @@ footer span {
     display: flex;
     width: 80%;
     height: auto;
-    margin: 0 5% 0 20%;
+    margin: 0 5% 0 auto;
   }
 
+  #tecnologias, #links, #contactos {
+    padding: 0;
+  }
 
-  /* Tecnologias */
+  
+
   #tecnologias {
+    margin-left: 10%;
+    /*background: red;*/
+    flex-basis: 30%; 
+    
+  }
+
+  .iconos-tecnologia {
+    display: flex;
+  }
+
+  .icons-tech a{
+    padding: 5px;
     width: 30%;
-    margin: 5%;
+
   }
 
-  #tecnologias .icons-tech {
-    width: 100%;
-  }
 
-  #tecnologias .icons-tech a img{
-    border: 5px solid #fff;
-  }
+
+  
 
   #links {
-    width: 30%;
+    /*background: green;*/
+    flex-basis: 30%; 
+
   }
 
   #contactos {
-    width: 30%;
+    /*background: blue;*/
+    flex-basis: 30%; 
   }
 
   footer {
