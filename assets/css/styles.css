@@ -193,13 +193,12 @@ ul li a {
   width: 55px;
   height: 55px;
 }
-/*
-#tecnologias div {
-  width: 25%;
-  height: 80px;
-  padding: 10px;
-  margin: 5%;
-}*/
+
+.iconos-tecnologia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0;
+}
 
 /*--------------   Links y enlaces  -----------------*/
 #links,
@@ -347,19 +346,11 @@ footer span {
     
   }
 
-  .iconos-tecnologia {
-    display: flex;
-  }
-
   .icons-tech a{
     padding: 5px;
     width: 30%;
 
   }
-
-
-
-  
 
   #links {
     /*background: green;*/
