@@ -28,6 +28,11 @@ progress::-webkit-progress-value {
 	#habilidades div {
 		margin-left: 25%;
 	}
+
+	#habilidades {
+		margin: 15% auto;
+	}
+
 }
 
 
