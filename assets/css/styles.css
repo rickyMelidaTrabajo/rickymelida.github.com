@@ -1,5 +1,4 @@
 @import url(sobreMi.css);
-@import url(habilidades.css);
 @import url(portafolio.css);
 
 /*--------------   Estilos generales  -----------------*/
@@ -41,7 +40,7 @@ header {
   float: left;
   width: 20%;
   height: 100vh;
-  background: rgb(0, 139, 139);
+  background: #008B8B;
 }
 
 .clearfix {

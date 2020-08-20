@@ -1,5 +1,18 @@
-#habilidades div{
+header {
+	
+
+}
+#header-habilidades {
+	background: rgba(240, 255, 255, 0.8);
+	height: 25vh;
+	background: #008B8B !important;
+}
+
+#habilidades {
 	margin: auto;
+}
+
+#habilidades div{
 	padding: 10px;
 }
 #habilidades div label{
@@ -21,7 +34,16 @@ progress::-webkit-progress-bar {
 }
  
 progress::-webkit-progress-value {	
-	background: #cdeb8e;	
+	background: #bbdfdf;	
+}
+
+
+#contenedor .titulos{
+	margin-top: -17px;
+	padding-top: 5%;
+	height: 25vh;
+	background: #008B8B;	
+
 }
 
 @media(min-width: 1250px) {

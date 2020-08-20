@@ -6,7 +6,7 @@ $(document).ready(function () {
   var img1 = document.querySelector("#img_1");
 
   btnMenu.addEventListener("change", verMenu, false);
-  
+
 
   var tamaho = screen.width;
   var titulo = document.title;
@@ -44,18 +44,21 @@ $(document).ready(function () {
     var seleciona = btnMenu.checked;
     var menu = $('#menu');
     var content = $('#contenedor');
+    var headerHab = document.querySelector('header');
+
 
     if (seleciona) {
       $('header').animate({ marginLeft: '80%' });
       menu.animate({ marginLeft: '0px' });
       content.addClass('mover-content');
-
+      headerHab.removeAttribute('id');
     } else {
 
       content.removeClass('mover-content');
       $('header').animate({ marginLeft: '0%' });
       menu.animate({ marginLeft: '-80%' });
       console.log(miscroll);
+      headerHab.setAttribute('id', 'header-habilidades');
 
 
     }
