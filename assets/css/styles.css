@@ -188,6 +188,10 @@ ul li a {
   margin-left: 20%;
 }
 
+#tecnologias .titulos {
+  margin-left: -20%;
+}
+
 #tecnologias div a img {
   width: 55px;
   height: 55px;
@@ -296,9 +300,6 @@ footer span {
     margin: -40% auto;
   }
 
-  /*.titulos h2 {
-    margin: 5% 25%;
-  }*/
 
   /*---- Imagenes tipo banner del container ------*/
   #images {

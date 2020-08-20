@@ -1,7 +1,3 @@
-header {
-	
-
-}
 #header-habilidades {
 	background: rgba(240, 255, 255, 0.8);
 	height: 25vh;
@@ -9,23 +5,26 @@ header {
 }
 
 #habilidades {
-	margin: auto;
+	margin: 5% auto;
 }
 
 #habilidades div{
-	padding: 10px;
+	padding: 15px;
 }
 #habilidades div label{
 	color: red;
+	margin-left: 20%;
+
 }
 progress {
-	width: 60%;
+	width: 80%;
 	display: block;
 	background-color: #f3f3f3;
 	border: 1px solid #000;
 	height: 25px;
 	border-radius: 25px;
 	padding: 2px 5px;
+	margin: auto;
 }
 
 progress::-webkit-progress-bar {
@@ -39,7 +38,7 @@ progress::-webkit-progress-value {
 
 
 #contenedor .titulos{
-	margin-top: -17px;
+	margin-top: -16px;
 	padding-top: 5%;
 	height: 25vh;
 	background: #008B8B;	
