@@ -65,18 +65,47 @@ $(document).ready(function () {
 
   }
 
-  let projects = document.querySelector('#port');
+  let projects = document.querySelector('.projects');
   let contenedor = document.querySelector('#contenedor');
 
+  // let project2 = projects.cloneNode(true);
+  
   for (let i = 1; i <= 4; i++) {
     let project2 = projects.cloneNode(true);
     project2.removeAttribute('id');
     project2.setAttribute('id', 'project_' + i);
-
     contenedor.appendChild(project2);
-
-    document.querySelector(`#project_${i}`).style.backgroundImage = `url(../assets/images/projects/project_${i}.jpg)`;
   }
+
+  let imagen = document.querySelector('#project_1 img');
+  let tituloProject = document.querySelector('#project_1 .name-project a');
+
+  imagen.setAttribute('src', `../assets/images/projects/project_2.jpg`)
+  tituloProject.innerHTML = "Ventas";
+
+
+
+  let imagen1 = document.querySelector('#project_2 img');
+  let tituloProject1 = document.querySelector('#project_2 .name-project a');
+
+  imagen1.setAttribute('src', `../assets/images/projects/project_3.jpeg`);
+  tituloProject1.innerHTML = 'Tareas Electricas';
+
+
+  let imagen2 = document.querySelector('#project_3 img');
+  let tituloProject2 = document.querySelector('#project_3 .name-project a');
+
+  imagen2.setAttribute('src', `../assets/images/projects/project_4.jpeg`);
+  tituloProject2.innerHTML = 'Admin Electricas';
+
+  let imagen3 = document.querySelector('#project_4 img');
+  let tituloProject3 = document.querySelector('#project_4 .name-project a');
+
+  imagen3.setAttribute('src', `../assets/images/projects/project_5.png`);
+  tituloProject3.innerHTML = 'Ricky Web';
+
+
+
 
 
 });
