@@ -23,7 +23,17 @@
 
 }
 
+#images {
+	display: none;
+  }
+  
+/* -------------------------------- TAMAÑO DE ESCRITORIO  ------------------------ */
+
 @media(min-width: 1250px) {
+
+	#contenedor {
+		margin-left: 68%;
+	}
 
 	#contenedor #sobreMi p{
 		margin-top: 0;
@@ -34,6 +44,28 @@
 		margin: 10% 25%;
 		margin-left: 25%;
 	}
+
+	#images-sm {
+		position: absolute;
+		top: 0;
+		right: 60%;
+		margin-top: 0;
+		display: inline;
+		width: 20%;
+	  }
+	
+	  #images-sm .section-image-sm {
+		display: flex;
+		width: 200%;
+	  }
+	
+	  #images-sm .section-image-sm img {
+		width: 100%;
+		height: 109vh;
+		display: block;
+		margin: -11% auto;
+		opacity: 0.7;
+	  }
 }
 
 

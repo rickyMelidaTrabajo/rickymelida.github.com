@@ -1,0 +1,33 @@
+#contenedor .titulos{
+	margin-top: -16px;
+	padding-top: 5%;
+	height: 130px;
+	background: #008B8B;	
+
+}
+
+#header-habilidades {
+	background: rgba(240, 255, 255, 0.8);
+	height: 20vh;
+	background: #008B8B !important;
+}
+
+#slider_princ {
+	width: 95%;
+	overflow: hidden;
+	margin: auto;
+}
+
+#slider_princ #slider_sec {
+	display: flex;
+	width: 300%;
+}
+
+#slider_sec .img{
+	width: 100%;
+}
+
+.img img {
+	width: 100%;
+	height: 50vh;
+}
