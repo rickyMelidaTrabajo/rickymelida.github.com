@@ -1,6 +1,6 @@
 #header-habilidades {
 	background: rgba(240, 255, 255, 0.8);
-	height: 25vh;
+	height: 20vh;
 	background: #008B8B !important;
 }
 
@@ -40,7 +40,7 @@ progress::-webkit-progress-value {
 #contenedor .titulos{
 	margin-top: -16px;
 	padding-top: 5%;
-	height: 25vh;
+	height: 130px;
 	background: #008B8B;	
 
 }

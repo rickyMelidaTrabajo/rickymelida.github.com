@@ -28,7 +28,7 @@ $(document).ready(function () {
       break;
 
     case 'Portafolio': 
-      $('ul li:nth-child(2)').attr('id', 'selec-item');
+      $('ul li:nth-child(3)').attr('id', 'selec-item');
       break;
 
     case 'Contacto':
@@ -101,27 +101,27 @@ $(document).ready(function () {
   // Proyecto 2
   let imagen = document.querySelector('#project_1 img');
   let tituloProject = document.querySelector('#project_1 .name-project a');
-  imagen.setAttribute('src', `../assets/images/projects/project_2.jpg`)
+  imagen.setAttribute('src', `../assets/images/projects/ventas/1.jpg`)
   tituloProject.innerHTML = "Ventas";
 
 
   // Proyecto 3
   let imagen1 = document.querySelector('#project_2 img');
   let tituloProject1 = document.querySelector('#project_2 .name-project a');
-  imagen1.setAttribute('src', `../assets/images/projects/project_3.jpeg`);
+  imagen1.setAttribute('src', `../assets/images/projects/tareas_electrica/1.jpg`);
   tituloProject1.innerHTML = 'Tareas Electricas';
   
   
   // Proyecto 4
   let imagen2 = document.querySelector('#project_3 img');
   let tituloProject2 = document.querySelector('#project_3 .name-project a');
-  imagen2.setAttribute('src', `../assets/images/projects/project_4.jpeg`);
+  imagen2.setAttribute('src', `../assets/images/projects/admin_electrica/1.jpeg`);
   tituloProject2.innerHTML = 'Admin Electricas';
 
   // Proyecto 5
   let imagen3 = document.querySelector('#project_4 img');
   let tituloProject3 = document.querySelector('#project_4 .name-project a');
-  imagen3.setAttribute('src', `../assets/images/projects/project_5.png`);
+  imagen3.setAttribute('src', `../assets/images/projects/ricky_web/1.jpg`);
   tituloProject3.innerHTML = 'Ricky Web';
 
 });
