@@ -30,3 +30,26 @@
     opacity: 0.5;
     padding: 20px 0;
 }
+
+
+@media(min-width: 1250px) {
+
+    .titulos h2{
+        margin-left: 35%;
+        margin-top: 2%;
+        font-size: 28px;
+    }
+
+    #contenedor {
+        width: 80%;
+    }
+
+    #contenedor .projects {
+        margin: auto;
+        width: 50%;
+    }
+
+    .apartados {
+        margin: 15% 5% 0 auto;
+    }
+}
