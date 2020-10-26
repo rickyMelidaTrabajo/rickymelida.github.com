@@ -2,6 +2,9 @@
 	margin-top: -10;
 	font-size: 18px;
 }
+#images-sm{
+	display: none;
+}
 
 #est-exp {
 	width:100%;
@@ -46,6 +49,7 @@
 	}
 
 	#images-sm {
+		display: initial;
 		position: absolute;
 		top: 0;
 		right: 60%;
