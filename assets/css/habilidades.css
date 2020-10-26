@@ -54,6 +54,22 @@ progress::-webkit-progress-value {
 		margin: 15% auto;
 	}
 
+	.container {
+		background: #b9ffff;	
+	}
+	#contenedor .titulos {
+		
+		background: #b9ffff;	
+	}
+	#menu {
+		border: solid 1px rgb(71, 70, 70);
+	}
+
+	.titulos h2 {
+		font-size: 28px;
+		margin: 5% 35%;
+	}
+
 }
 
 
