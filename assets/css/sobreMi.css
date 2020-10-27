@@ -44,7 +44,7 @@
 	}
 	#estudios section {
 		width: 60%;
-		margin: 10% 25%;
+		margin: 5% 25%;
 		margin-left: 25%;
 	}
 
@@ -69,6 +69,9 @@
 		display: block;
 		margin: -11% auto;
 		opacity: 0.7;
+	  }
+	  .titulos h2 {
+		  margin-top: 3%;
 	  }
 }
 
