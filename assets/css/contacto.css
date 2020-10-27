@@ -1,13 +1,14 @@
 #contenedor .titulos {
-  margin-top: -16px;
-  padding-top: 5%;
-  height: 130px;
   background: #008b8b;
-}
+} 
 
+#contenedor .titulos h2 {
+  margin-left: 0;
+}
+ 
 #header-habilidades {
   background: rgba(240, 255, 255, 0.8);
-  height: 20vh;
+  height: 15vh;
   background: #008b8b !important;
 }
 
@@ -31,6 +32,11 @@
   font-size: 30px;
 }
 
+.contacts p span a{
+  text-decoration: none;
+  color: rgb(71, 70, 70);
+}
+
 @media (min-width: 1250px) {
   .container {
     background: #b9ffff;
@@ -44,7 +50,7 @@
     border: solid 1px rgb(71, 70, 70);
   }
 
-  .titulos h2 {
+  #contenedor .titulos h2 {
     font-size: 28px;
     margin: 5% 35%;
   }
