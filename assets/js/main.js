@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
   // Boton para ver menu en tamanho movil y tablet
   var btnMenu = document.querySelector("#icono-menu");
 
@@ -16,23 +15,28 @@ $(document).ready(function () {
 
   switch (titulo) {
     case 'Ricardo M.':
-      $('ul li:nth-child(1)').attr('id', 'selec-item');
+      $('#menu ul li:nth-child(1)').attr('id', 'selec-item');
+      $('#links ul li:nth-child(1)').attr('id', 'selec-item');
       break;
 
     case 'Habilidades':
-      $('ul li:nth-child(4)').attr('id', 'selec-item');
+      $('#menu ul li:nth-child(4)').attr('id', 'selec-item');
+      $('#links ul li:nth-child(4)').attr('id', 'selec-item');
       break;
 
     case 'Sobre Mi':
-      $('ul li:nth-child(2)').attr('id', 'selec-item');
+      $('#menu ul li:nth-child(2)').attr('id', 'selec-item');
+      $('#links ul li:nth-child(2)').attr('id', 'selec-item');
       break;
 
     case 'Portafolio': 
-      $('ul li:nth-child(3)').attr('id', 'selec-item');
+      $('#menu ul li:nth-child(3)').attr('id', 'selec-item');
+      $('#links ul li:nth-child(3)').attr('id', 'selec-item');
       break;
 
     case 'Contacto':
-      $('ul li:nth-child(5)').attr('id', 'selec-item');
+      $('#menu ul li:nth-child(5)').attr('id', 'selec-item');
+      $('#links ul li:nth-child(5)').attr('id', 'selec-item');
       break;
 
   }
