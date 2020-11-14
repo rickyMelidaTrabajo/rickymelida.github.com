@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 #contenedor .titulos{
 	margin-top: -16px;
 	padding-top: 5%;
@@ -13,9 +15,9 @@
 }
 
 #slider_princ {
-	width: 95%;
+	width: 80%;
 	overflow: hidden;
-	margin: auto;
+	margin: 5% auto;
 }
 
 #slider_princ #slider_sec {
@@ -29,5 +31,32 @@
 
 .img img {
 	width: 100%;
-	height: 50vh;
+	height: 35vh;
+}
+
+.des_project {
+	margin: 10% auto;
+	width: 90%;
+}
+
+.des_project h3{
+	text-align: left;
+	padding: 10px 0 ;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: Poppins,Arial,sans-serif;
+	/* font-family: 'Playfair Display', serif; */
+}
+
+.detalles section{
+	padding: 10px 0;
+}
+
+.detalles section span {
+	font-weight: bold;
+}
+
+.detalles section label a {
+	color: rgb(66, 191, 207);
+
 }
