@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-#header-habilidades {
-	height: 17.3vh !important;
-}
+ #header-habilidades {
+	height: 15vh !important;
+} 
 #contenedor .titulos{
-	margin-top: -16px;
-	padding-top: 5%;
-	height: 113px;
+	/* margin-top: -16px;
+	padding-top: 5%; */
+	height: 15vh;
 	background: #008B8B;	
 
 }

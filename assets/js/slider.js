@@ -24,7 +24,7 @@ setInterval(function () {
         $("#slider_sec .img:last").insertBefore("#slider_sec .img:first");
         $("#slider_sec").css("margin-left", "-" + 100 + "%");
     });
-}, 4000);
+}, 5000);
 
 
 /*
