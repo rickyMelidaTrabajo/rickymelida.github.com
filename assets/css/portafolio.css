@@ -1,5 +1,6 @@
-#header-port, #contenedor {
-	background: rgba(240, 255, 255, 0.8);
+#header-port, #contene {
+    background: rgba(240, 255, 255, 0.8);
+    
 }
 
 
@@ -34,11 +35,21 @@
 
 @media(min-width: 1250px) {
 
-    .titulos h2{
-        margin-left: 35%;
-        margin-top: 2%;
-        font-size: 28px;
+    #contene {
+        height: 19vh;
+        background: #b9ffff;
+        border-bottom: 2px solid #000;
     }
+    
+	#contene .titulos {
+        background: #b9ffff;	
+    }
+
+    #contene .titulos h2 {
+		font-size: 28px;
+        margin: 0% 35%;
+        padding: 2.3% 0;
+	}
 
     #contenedor {
         width: 80%;

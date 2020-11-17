@@ -53,14 +53,13 @@ progress::-webkit-progress-value {
 	}
 
 	#habilidades {
-		margin: 15% auto;
+		margin: 10% auto;
 	}
 
 	.container {
 		background: #b9ffff;	
 	}
 	#contenedor .titulos {
-		
 		background: #b9ffff;	
 	}
 	#menu {

@@ -233,7 +233,6 @@ ul li a {
 }
 
 #selec-item a{
-  /* text-decoration: underline; */
   border-bottom: 2px solid black
 
 }
@@ -294,6 +293,7 @@ footer span {
   #menu ul li a:hover {
     background-size: 100% 2px;
   }
+
   .container {
     border-bottom: 2px solid #000;
   }
@@ -322,6 +322,13 @@ footer span {
 
   #cv p a {
     font-size: 21px;
+    padding: 15px;
+  }
+
+  #cv p a:hover {
+    /* animation: subraya 1s forwards; */
+    /* background: #000; */
+    background-size: 80% 2px;
   }
 
   /*---- Imagenes tipo banner del container ------*/
@@ -389,21 +396,22 @@ footer span {
 
 @keyframes subraya {
   0% {
-    border-bottom: 1px rgba(0, 0, 0, 0.1);
+
+    border: solid 3px rgba(0, 0, 0, 0.1);
   }
   25% {
-    border-bottom: 1px rgba(0, 0, 0, 0.25);
+    border: solid 3px rgba(0, 0, 0, 0.25);
   }
 
   50% {
-    border-bottom: 1px rgba(0, 0, 0, 0.5);
+    border: solid 3px rgba(0, 0, 0, 0.5);
   }
 
   75% {
-    border-bottom: 1px rgba(0, 0, 0, 0.75);
+    border: solid 3px rgba(0, 0, 0, 0.75);
   }
 
   100% {
-    border-bottom: 1px rgba(0, 0, 0, 0.1);
+    border: solid 3px rgba(0, 0, 0, 0.1);
   }
 }
