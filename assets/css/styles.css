@@ -38,6 +38,7 @@ header input {
 header label img {
   display: block;
   margin: auto;
+  position: fixed;
 }
 
 header {
@@ -122,10 +123,12 @@ ul li a {
   width: 80%;
   background: rgba(240, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.8);
+  font-size: 100px;
 }
 
 #contenedor p:first-child {
   padding-top: 15%;
+  font-size: 30px;
 }
 
 #contenedor p {
@@ -136,13 +139,13 @@ ul li a {
 
 #contenedor #correo {
   margin: 10% 0 0 10%;
-  font-size: 12px;
-  padding-bottom: 5%;
+  font-size: 17px;
+  padding-bottom: 10%;
 }
 
 #contenedor #direccion {
   margin-left: 10%;
-  font-size: 12px;
+  font-size: 17px;
 }
 
 #contenedor #redes {
