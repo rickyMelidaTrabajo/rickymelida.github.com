@@ -163,7 +163,7 @@ ul li a {
 
 #redes a {
   text-decoration: none;
-  padding: 5%;
+  padding: 2%;
 }
 
 .mover-content {
@@ -308,7 +308,7 @@ footer span {
 
   #contenedor p:first-child {
     font-size: 32px;
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   #contenedor #redes {
